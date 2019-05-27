@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">  
+<title>Titulo</title>
+</head>
+<body style="background-color: skyblue">
+    <!--Referencia al archivo JavaScript-->
+    <script src="index.js"></script>
+    <!--Cuerpo de la página-->
+    <h1>Mi página web</h1>
+    <!--Tabla de idioma-->
+    <table>
+        <tr>
+            <td>Idioma:</td>
+            <td>
+                <img src="image.png" alt="Flag" width="30" height="20">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <!--Tabla de datos-->
+    <table>
+        <tr>
+            <td>Introduce nombre:</td>
+            <td>
+                <input id="nombre" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Selecciona lugar:</td>
+            <td> 
+                <select id="lugar">
+                    <option value="1">Madrid</option>
+                    <option value="2">Barcelona</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><input id="admin" type="checkbox">Administrador</td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <!--Botón que lanza la función JavaScript-->
+    <input type="button" value="Mostrar datos" onclick="funcion()">
+    <br>
+    <!--Campo resultado-->
+    <p id="resultado"></p>
+    <br>
+    <a href="https://www.w3schools.com" target="_blank">Aprende de Web</a>
+</body>
+</html>
